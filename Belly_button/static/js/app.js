@@ -13,7 +13,7 @@ function buildMetadata(sample) {
     // tags for each key-value in the metadata.
     
     Object.entries(data).forEach(function([key, value]) {
-        paneldata.append('tbody').text(`<tr>${key}: ${value}</tr>`);
+        paneldata.append('tbody').text(`${key}: ${value}`);
       });
     });
 
